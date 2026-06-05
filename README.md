@@ -1,23 +1,50 @@
 # 📊 Ecommerce Sales Dashboard
 
 ## 📌 Project Overview
-This project analyzes eCommerce transaction data to uncover insights related to revenue trends, customer behavior, and product performance.
 
-The project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI.
+This project analyzes eCommerce transaction data to uncover actionable insights related to revenue performance, customer behavior, and product trends. The solution follows an end-to-end analytics workflow, combining Python for data processing, MySQL for storage and querying, and Power BI for interactive business intelligence reporting.
+
+---
+
+## 🎯 Business Problem
+
+Organizations generate large volumes of transaction data but often struggle to convert it into meaningful insights. This project aims to centralize sales data, automate analysis, and provide stakeholders with an interactive dashboard for monitoring business performance and supporting data-driven decision-making.
 
 ---
 
 ## 🧰 Tools & Technologies
-- Python (Pandas, Matplotlib)
-- MySQL (Data Storage & Queries)
-- Power BI (Dashboard Visualization)
+
+* Python (Pandas, NumPy, Matplotlib)
+* MySQL (Data Storage & Querying)
+* Power BI (Dashboard Development & Visualization)
+* SQL (Data Extraction & Analysis)
+
+---
+
+## 🔄 Data Pipeline
+
+```text
+Raw Sales Data
+       ↓
+Python Data Cleaning & Transformation
+       ↓
+MySQL Database Storage
+       ↓
+SQL Analysis & Aggregation
+       ↓
+Power BI Dashboard
+       ↓
+Business Insights & Reporting
+```
 
 ---
 
 ## 📂 Project Structure
 
+```text
 Ecommerce-Sales-Dashboard/
 │
+<<<<<<< HEAD
 ├── PowerBI/
 │   └── Ecommerce_Sales_Dashboard.pbix
 │
@@ -34,55 +61,101 @@ Ecommerce-Sales-Dashboard/
 ├── Screenshots/
 │   ├── dashboard_overview.png
 │   └── sales_analysis.png
+=======
+├── Data/
+│   └── Ecommerce dataset files
+│
+├── SQL/
+│   ├── Database schema
+│   └── Analysis queries
+│
+├── Notebooks/
+│   └── Data cleaning and analysis notebooks
+│
+├── PowerBI/
+│   └── Ecommerce_Sales_Dashboard.pbix
+│
+├── Screenshots/
+│   └── Dashboard preview images
+>>>>>>> c7f284d (Improve README structure and documentation)
 │
 ├── README.md
 └── .gitignore
 ```
 
-
----
-
 ## 📊 Key Metrics
-- Total Revenue: ₹8.91M
-- Total Orders: 18.5K
-- Total Customers: 4.3K
+
+* Total Revenue: ₹8.91M
+* Total Orders: 18.5K
+* Total Customers: 4.3K
 
 ---
 
 ## 📈 Dashboard Features
-- KPI Cards (Revenue, Orders, Customers)
-- Monthly Revenue Trend
-- Revenue by Country
-- Top Products Analysis
-- Interactive Filters
+
+* KPI Cards (Revenue, Orders, Customers)
+* Monthly Revenue Trend Analysis
+* Revenue Distribution by Country
+* Top Products Performance Analysis
+* Customer Purchase Insights
+* Interactive Filters and Drill-Downs
 
 ---
 
 ## 📷 Dashboard Preview
+
 ![Dashboard](Screenshots/dashboard.png)
 
 ---
 
 ## 🔍 Key Insights
-- Revenue shows strong growth towards the end of the year
-- A small number of products contribute significantly to total revenue
-- Majority of revenue comes from a few key countries
-- Customer purchasing patterns indicate repeat buying behavior
+
+* Revenue demonstrated strong growth during peak seasonal periods.
+* A small group of products generated a significant share of total revenue.
+* Most revenue originated from a limited number of high-performing countries.
+* Customer purchasing patterns indicated strong repeat-buying behavior and retention opportunities.
+
+---
+
+## 💼 Business Impact
+
+* Processed and analyzed 390K+ transaction records.
+* Delivered visibility into ₹8.91M revenue across 18.5K orders.
+* Enabled rapid identification of top-performing products and markets.
+* Automated reporting workflows through a structured analytics pipeline.
 
 ---
 
 ## 🚀 How to Use
-1. Open `.pbix` file in Power BI Desktop
-2. Explore visuals and filters
-3. Run SQL queries from `/SQL` folder if needed
+
+1. Clone the repository.
+2. Open the Power BI (.pbix) file in Power BI Desktop.
+3. Explore dashboard visuals and interactive filters.
+4. Review SQL scripts in the `/SQL` folder.
+5. Run Python notebooks in the `/Notebooks` folder for data preparation and analysis.
 
 ---
 
-## 💼 Project Outcome
-This project demonstrates:
-- Data cleaning and transformation
-- SQL-based analysis
-- Business intelligence dashboard creation
-- Insight generation for decision-making
+## 📚 Skills Demonstrated
+
+<<<<<<< HEAD
+---
+=======
+* Data Cleaning & Transformation
+* Exploratory Data Analysis (EDA)
+* SQL Query Development
+* Data Modeling
+* KPI Reporting
+* Dashboard Development
+* Data Storytelling
+* Business Insight Generation
 
 ---
+
+## 👨‍💻 Author
+
+**Ajaybabu Pakala**
+
+* LinkedIn: https://linkedin.com/in/pakala-ajaybabu
+* GitHub: https://github.com/ajaypakala
+>>>>>>> c7f284d (Improve README structure and documentation)
