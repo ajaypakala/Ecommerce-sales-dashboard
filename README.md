@@ -18,13 +18,27 @@ The project demonstrates an end-to-end data analytics workflow using Python, SQL
 
 Ecommerce-Sales-Dashboard/
 │
-├── PowerBI/          # Power BI dashboard file
-├── Notebooks/        # Python analysis notebook
-├── SQL/              # SQL queries
-├── Data/             # Dataset files
-├── Screenshots/      # Dashboard preview
+├── PowerBI/
+│   └── Ecommerce_Sales_Dashboard.pbix
+│
+├── Notebooks/
+│   └── analysis.ipynb
+│
+├── SQL/
+│   ├── schema.sql
+│   └── analysis_queries.sql
+│
+├── Data/
+│   └── ecommerce_dataset.csv
+│
+├── Screenshots/
+│   ├── dashboard_overview.png
+│   └── sales_analysis.png
+│
 ├── README.md
 └── .gitignore
+```
+
 
 ---
 
