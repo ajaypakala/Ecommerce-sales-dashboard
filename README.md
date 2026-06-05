@@ -138,9 +138,6 @@ Ecommerce-Sales-Dashboard/
 
 ## 📚 Skills Demonstrated
 
-<<<<<<< HEAD
----
-=======
 * Data Cleaning & Transformation
 * Exploratory Data Analysis (EDA)
 * SQL Query Development
@@ -158,4 +155,3 @@ Ecommerce-Sales-Dashboard/
 
 * LinkedIn: https://linkedin.com/in/pakala-ajaybabu
 * GitHub: https://github.com/ajaypakala
->>>>>>> c7f284d (Improve README structure and documentation)
