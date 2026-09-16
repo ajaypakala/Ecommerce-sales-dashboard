@@ -44,7 +44,6 @@ Business Insights & Reporting
 ```text
 Ecommerce-Sales-Dashboard/
 │
-<<<<<<< HEAD
 ├── PowerBI/
 │   └── Ecommerce_Sales_Dashboard.pbix
 │
@@ -61,7 +60,6 @@ Ecommerce-Sales-Dashboard/
 ├── Screenshots/
 │   ├── dashboard_overview.png
 │   └── sales_analysis.png
-=======
 ├── Data/
 │   └── Ecommerce dataset files
 │
@@ -77,7 +75,6 @@ Ecommerce-Sales-Dashboard/
 │
 ├── Screenshots/
 │   └── Dashboard preview images
->>>>>>> c7f284d (Improve README structure and documentation)
 │
 ├── README.md
 └── .gitignore
